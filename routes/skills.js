@@ -18,5 +18,8 @@ router.delete('/:id', skillsCtrl.delete);
 // PUT /skills/:id
 router.put('/:id', skillsCtrl.update);
 
+router.get('/addskills',skillsCtrl.addskills)
+
 module.exports = router;
 
+ 
