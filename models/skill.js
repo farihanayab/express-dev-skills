@@ -32,6 +32,9 @@ const skills = [
     const skill = skills.find((skill) => skill.id === id);
    Object.assign(skill, updatedskill);
   }
+
+ 
+
   module.exports = {
     getAll,
     getOne,
